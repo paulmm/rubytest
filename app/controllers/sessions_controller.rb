@@ -18,7 +18,7 @@ def create
   def destroy
     sign_out
     redirect_to root_url
-    flash[:success] = 'You have been signed out' 
+    flash[:notice] = 'You have been signed out' 
   end
 
 end
